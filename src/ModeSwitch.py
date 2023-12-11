@@ -1,0 +1,27 @@
+from z3 import *
+
+#invariables
+m_workMode = Int('m_workMode')
+m_workMode_next = Int('m_workMode_next')
+m_countMode = Int('m_countMode')
+m_countMode_next = Int('m_countMode_next')
+m_countPublic = Int('m_countPublic')
+m_countPublic_next = Int('m_countPublic_next')
+time_D2P = Int('time_D2P')
+time_D2P_overtime = Int('time_D2P_overtime')
+flgSP = Int('flgSP')
+piyaw = Real('piyaw')
+royaw = Real('royaw')
+temp = Real('temp')
+pGyroRate = Array('pGyroRate', IntSort(), RealSort())
+s = Solver()
+#Contract
+s.add(Implies(And(m_workMode==0, Or(m_countMode>800, m_countPublic>280)), m_workMode_next==17))
+s.add(Implies(And(m_workMode==17, m_countMode>4500), m_workMode_next==34))
+s.add(Implies(And(m_workMode==34, m_countMode>5000), m_workMode_next==17))
+s.add(Implies(And(m_workMode==17, flgSP==1, Or(piyaw>0.25, piyaw<-0.25), m_countPublic>12, m_countMode<=4500), m_workMode_next==51))
+s.add(Implies(And(m_workMode==34, flgSP==1, Or(royaw>1.0, royaw<-1.0), m_countPublic>12, m_countMode<=5000), m_workMode_next==51))
+s.add(Implies(And(m_workMode==0, m_countMode<=800, m_countPublic<=280), m_workMode_next==0))
+s.add(Implies(And(m_workMode==17, Or(flgSP!=1, piyaw<0.25, piyaw>-0.25, m_countPublic<=12), m_countMode<=4500), m_workMode_next==17))
+s.add(Implies(And(m_workMode==34, Or(flgSP!=1, royaw<1.0, royaw>-1.0, m_countPublic<=12), m_countMode<=5000), m_workMode_next==34))
+s.add(Implies(m_workMode==51, m_workMode_next==51)) 
