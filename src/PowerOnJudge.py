@@ -14,7 +14,7 @@ numOnPeriod = Const('numOnPeriod', IntSort())
 numOnPeriod_next = Const('numOnPeriod_next', IntSort())
 numOffPeriod = Const('numOffPeriod', IntSort())
 numOffPeriod_next = Const('numOffPeriod_next', IntSort())
-#Contract1
+#Contract
 s = Solver()
 s.add(numOffPeriod == 2)
 s.add(numOnPeriod == 30)
@@ -28,4 +28,4 @@ Unchange = And(numOnPeriod_next == numOnPeriod, numOffPeriod_next == numOffPerio
 Guarantees = And(Or(Case1, Case2, Case3, Case4, Case5), Unchange)
 s.add(Implies(Assumptions, Guarantees))
 s.add(Assumptions)
-#####
+##########
