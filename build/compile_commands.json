@@ -1,0 +1,50 @@
+[
+{
+  "directory": "Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/build",
+  "command": "Z:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\CMakeFiles\\3.26.5\\CompilerIdCXX\\CMakeCXXCompilerId.cpp.obj -c \"Z:\\computer science\\VScode\\vscode_project\\project\\ModeControl\\SAM_auto\\build\\CMakeFiles\\3.26.5\\CompilerIdCXX\\CMakeCXXCompilerId.cpp\"",
+  "file": "Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/build/CMakeFiles/3.26.5/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+  "output": "CMakeFiles/main.dir/CMakeFiles/3.26.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj"
+},
+{
+  "directory": "Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/build",
+  "command": "Z:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\aux_fun.cpp.obj -c \"Z:\\computer science\\VScode\\vscode_project\\project\\ModeControl\\SAM_auto\\src\\aux_fun.cpp\"",
+  "file": "Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/src/aux_fun.cpp",
+  "output": "CMakeFiles/main.dir/src/aux_fun.cpp.obj"
+},
+{
+  "directory": "Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/build",
+  "command": "Z:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c \"Z:\\computer science\\VScode\\vscode_project\\project\\ModeControl\\SAM_auto\\src\\main.cpp\"",
+  "file": "Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/src/main.cpp",
+  "output": "CMakeFiles/main.dir/src/main.cpp.obj"
+},
+{
+  "directory": "Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/build",
+  "command": "Z:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\main_no_z3.cpp.obj -c \"Z:\\computer science\\VScode\\vscode_project\\project\\ModeControl\\SAM_auto\\src\\main_no_z3.cpp\"",
+  "file": "Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/src/main_no_z3.cpp",
+  "output": "CMakeFiles/main.dir/src/main_no_z3.cpp.obj"
+},
+{
+  "directory": "Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/build",
+  "command": "Z:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\main_z3.cpp.obj -c \"Z:\\computer science\\VScode\\vscode_project\\project\\ModeControl\\SAM_auto\\src\\main_z3.cpp\"",
+  "file": "Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/src/main_z3.cpp",
+  "output": "CMakeFiles/main.dir/src/main_z3.cpp.obj"
+},
+{
+  "directory": "Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/build",
+  "command": "Z:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\test.cpp.obj -c \"Z:\\computer science\\VScode\\vscode_project\\project\\ModeControl\\SAM_auto\\src\\test.cpp\"",
+  "file": "Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/src/test.cpp",
+  "output": "CMakeFiles/main.dir/src/test.cpp.obj"
+},
+{
+  "directory": "Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/build",
+  "command": "Z:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\test_folder\\test1.cpp.obj -c \"Z:\\computer science\\VScode\\vscode_project\\project\\ModeControl\\SAM_auto\\src\\test_folder\\test1.cpp\"",
+  "file": "Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/src/test_folder/test1.cpp",
+  "output": "CMakeFiles/main.dir/src/test_folder/test1.cpp.obj"
+},
+{
+  "directory": "Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/build",
+  "command": "Z:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\test_folder\\test2.cpp.obj -c \"Z:\\computer science\\VScode\\vscode_project\\project\\ModeControl\\SAM_auto\\src\\test_folder\\test2.cpp\"",
+  "file": "Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/src/test_folder/test2.cpp",
+  "output": "CMakeFiles/main.dir/src/test_folder/test2.cpp.obj"
+}
+]

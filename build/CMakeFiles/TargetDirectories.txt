@@ -1,0 +1,3 @@
+Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/build/CMakeFiles/main.dir
+Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/build/CMakeFiles/edit_cache.dir
+Z:/computer science/VScode/vscode_project/project/ModeControl/SAM_auto/build/CMakeFiles/rebuild_cache.dir
