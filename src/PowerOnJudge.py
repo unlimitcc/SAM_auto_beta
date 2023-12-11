@@ -14,7 +14,7 @@ numOnPeriod = Const('numOnPeriod', IntSort())
 numOnPeriod_next = Const('numOnPeriod_next', IntSort())
 numOffPeriod = Const('numOffPeriod', IntSort())
 numOffPeriod_next = Const('numOffPeriod_next', IntSort())
-#Contract
+#Contract1
 s = Solver()
 s.add(numOffPeriod == 2)
 s.add(numOnPeriod == 30)
